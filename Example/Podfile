@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MKABCAppCallerSDK_Example' do
+  pod 'MKABCAppCallerSDK', :path => '../'
+
+  target 'MKABCAppCallerSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
